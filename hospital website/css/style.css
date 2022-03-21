@@ -140,7 +140,12 @@ section:nth-child(even){
 .home .content{
     flex:1 1 45rem;
 }
-
+.home .content h1{
+    font-size: 6.5rem;
+    color:var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
 .home .content h3{
     font-size: 4.5rem;
     color:var(--black);
